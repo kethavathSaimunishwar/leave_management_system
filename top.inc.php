@@ -1,7 +1,7 @@
 <?php
 require('db.inc.php');
 if(!isset($_SESSION['ROLE'])){
-	header('location:login.php');
+	header('location:docs.php');
 	die();
 }
 ?>
